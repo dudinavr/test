@@ -19,4 +19,4 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Deploy to Local Server
-        run: rsync -avz --delete-after ./build/ valeriadudina@95.24.157.238:/PycharmProjects/test
+        run: rsync -avz --delete-after ./build/ valeriadudina@10.79.177.10:/PycharmProjects/test
